@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+        }
+        ul {
+            background: green;
+            height: 32px;
+            list-style-type: none;
+            
+
+        }
+        li {
+            float: left;
+        }
+        li > a {
+            display: block; 
+            margin-top: 7.5px;
+            margin-right: 25px;
+            text-decoration: none;
+            color: white;
+        }
+        li > a:hover {
+            color: red;
+        }
+        li > .dropdown-content {
+            display: none;
+            background: green;
+            position: absolute;
+            box-shadow: 0px 8px 16px 0px rgba(0,255,0,0.2);
+            z-index: 1;
+        }
+        .contents:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content > p:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li class="contents"><a href="#">News</a>
+            <div class="dropdown-content">
+                <p>Yesterday</p>
+                <p>Today</p>
+                <p>Future</p>
+            </div>
+        </li>
+        <li class="contents"><a href="#">Contents</a>
+            <div class="dropdown-content">
+                <p>Capuccino</p>
+                <p>Iced Coffee</p>
+                <p>Decaf</p>
+                <p>Black Coffee</p>
+            </div>
+        </li>
+        <li><a href="#">About</a></li>
+    </ul>
+
+</body>
+</html>
