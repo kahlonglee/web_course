@@ -1,0 +1,32 @@
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  margin: 10px 10px;
+  width: 200px;
+  height: 200px;
+}
+
+@keyframes animation {
+  0% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}
+
+P {
+  font-weight: bold;
+  font-size: 32px;
+  margin: 10px;
+  animation: animation 1s infinite;
+}
+
+h1 {
+  text-decoration: underline;
+  font-size: 40px;
+  margin: 10px;
+}
