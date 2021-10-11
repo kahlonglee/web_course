@@ -1,0 +1,40 @@
+@mixin box-dimension() {
+  width: 200px;
+  height: 32px;
+}
+
+@mixin border-dimension {
+  border-radius: 7px;
+  border: 1px solid rgb(0, 132, 255);
+}
+.parent {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#txtbox-id {
+  @include box-dimension();
+  @include border-dimension();
+  margin-top: 10px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+#txtbox-password {
+  @include box-dimension();
+  @include border-dimension();
+  margin-left: 40px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#btn-submit {
+  @include box-dimension();
+  @include border-dimension();
+  margin-left: 40px;
+  background-color: rgb(0, 132, 255);
+  color: white;
+}
