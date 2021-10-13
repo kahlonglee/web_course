@@ -8,11 +8,11 @@
   border: 1px solid rgb(0, 132, 255);
 }
 .parent {
-  box-sizing: border-box;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 #txtbox-id {
