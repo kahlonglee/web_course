@@ -14,11 +14,11 @@ btnSubmit.addEventListener("click", () => {
   }
 });
 
-window.addEventListener("load", () => {
-  alert(
-    'Please put in "-a" and wihout "-a" in ID textbox to see the different'
-  );
-});
+// window.addEventListener("load", () => {
+//   alert(
+//     'Please put in "-a" and wihout "-a" in ID textbox to see the different'
+//   );
+// });
 
 class user {
   constructor(ID, Password) {
