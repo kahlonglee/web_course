@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+  padding: opx;
+  text-align: center;
+
+  .header {
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  #note {
+    font-weight: bold;
+    margin-top: 0px;
+    color: crimson;
+  }
+  .container {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    .child {
+      position: relative;
+      width: 650px;
+      height: 300px;
+      background-image: url(./image.jpg);
+      background-size: cover;
+
+      .player-name {
+        margin-top: 10px;
+      }
+
+      .render {
+        color: red;
+        margin-top: 90px;
+        font-size: 50px;
+      }
+
+      .result {
+        position: absolute;
+        bottom: 0px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        color: red;
+        font-weight: bold;
+      }
+    }
+
+    .btn-start {
+      display: none;
+      margin-top: 10px;
+      background: darkgreen;
+      color: white;
+      border-radius: 5px;
+      border: darkgreen 1px solid;
+      width: 150px;
+      height: 35px;
+      font-size: bold;
+    }
+    .btn-start-main {
+      margin-top: 10px;
+      background: darkgreen;
+      color: white;
+      border-radius: 5px;
+      border: darkgreen 1px solid;
+      width: 150px;
+      height: 35px;
+      font-size: bold;
+    }
+
+    .btn-replay {
+      display: none;
+      margin-top: 10px;
+      background: red;
+      color: white;
+      border-radius: 5px;
+      border: red 1px solid;
+      width: 150px;
+      height: 35px;
+      font-size: bold;
+    }
+  }
+}
