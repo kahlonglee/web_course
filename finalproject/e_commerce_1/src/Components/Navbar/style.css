@@ -1,0 +1,15 @@
+.span {
+  font-size: 14px;
+  font-weight: 900;
+  position: absolute;
+  width: auto;
+  top: 0px;
+  right: 5px;
+  /* border-radius: 30%; */
+  /* background-color: red; */
+}
+
+.button {
+  position: relative;
+  height: 60px;
+}
